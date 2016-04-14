@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="col-lg-9">
+            {% for post in posts.items %}
+                <div class="row">
+                    <div class="col-lg-12"><h1>{{ post.title }}</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        {{ post.text | truncate(500) | safe }} 
+                        <a href="{{ url_for('post', post_id=post.id) }}">Read More</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col-lg-3">
+            <div class="row">
+                <h5>Recent Posts</h5>
+                <ul>
+                    {% for post in recent %}
+                        <li><a href="{{ url_for('post', post_id=post.id) }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="row">
+                <h5>Popular Tags</h5>
+                <ul>
+                    {% for tag in top_tags %}
+                        <li><a href="{{ url_for('tag', tag_name=tag[0].title) }}">{{ tag[0].title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {{ render_pagination(posts, 'home') }}
+{% endblock %}
