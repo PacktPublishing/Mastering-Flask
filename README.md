@@ -4,18 +4,17 @@ This is the code repository for [Mastering Flask](https://www.packtpub.com/web-d
 
 ## Instructions and Navigation
 
-Chapter number, Software required (With version), Hardware specifications OS required:
-1 Python, Pip, Git, virtualenv, flask-script, Flask Any PC will do Windows, Mac, or Linux
-2 SQLAlchemy, Flask SQLAlchemy “ “
-3 WTForms, Flask WTForms “ “
-6 Flask Login, Flask Principal, Flask OpenID, Flask OAuth “ “
-7 MongoDB, Flask MongoEngine “ “
-8 Flask Restful, Flask Restless  
-9 RabbitMQ, Celery
- “ “
-10 Flask Cache, Flask Debug Toolbar, Flask Assets, Flask Admin, Flask Mail “ “
-12 None  
-13 Tornado, gevent, Apache, Nginx, Fabric   
+#### Chapter number, Software required (With version), Hardware specifications OS required:
+1. Python, Pip, Git, virtualenv, flask-script, Flask Any PC will do Windows, Mac, or Linux
+2. SQLAlchemy, Flask SQLAlchemy 
+3. WTForms, Flask WTForms 
+6. Flask Login, Flask Principal, Flask OpenID, Flask OAuth 
+7. MongoDB, Flask MongoEngine 
+8. Flask Restful, Flask Restless  
+9. RabbitMQ, Celery
+10. Flask Cache, Flask Debug Toolbar, Flask Assets, Flask Admin, Flask Mail 
+12. None  
+13. Tornado, gevent, Apache, Nginx, Fabric  
 
 
 
