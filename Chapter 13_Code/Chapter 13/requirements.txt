@@ -4,7 +4,7 @@ celery==3.1.18
 coverage==3.7.1
 cssmin==0.2.0
 Fabric==1.10.2
-Flask==0.10.1
+Flask==1.0
 Flask-Admin==1.1.0
 Flask-Assets==0.10
 Flask-Bcrypt==0.6.2
