@@ -30,5 +30,5 @@ selenium==2.46.0
 SQLAlchemy==1.0.4
 uWSGI==2.0.11
 webassets==0.10.1
-Werkzeug==0.10.4
+Werkzeug==0.15.3
 WTForms==2.0.2
