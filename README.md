@@ -25,7 +25,3 @@ This is the code repository for [Mastering Flask](https://www.packtpub.com/web-d
 * [Flask By Example](https://www.packtpub.com/web-development/flask-example?utm_source=github&utm_medium=repository&utm_campaign=9781785286933)
 * [Learning Flask](https://www.packtpub.com/web-development/learning-flask-video)
 * [Instant Flask Web Development](https://www.packtpub.com/web-development/instant-flask-web-development-instant?utm_source=github&utm_medium=repository&utm_campaign=9781782169628)
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781784393656">https://packt.link/free-ebook/9781784393656 </a> </p>
